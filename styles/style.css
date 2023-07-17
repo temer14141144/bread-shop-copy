@@ -209,6 +209,10 @@
   padding: 66px 0 44px;
 }
 
+.footer-address {
+  padding: 66px 0 50px;
+}
+
 .footer-location {
   font-family: "Italiana";
   font-weight: 400;
@@ -216,10 +220,33 @@
   line-height: 1.88;
 }
 
+.footer-map {
+  width: 535px;
+  height: 487px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between ;
+}
+
 .footer-about {
   font-weight: 400;
   font-size: 40px;
   line-height: 1.88;
+  margin-bottom: 50px;
+}
+
+.footer-item {
+  display: flex;
+}
+
+.footer-item:nth-child(1) {
+  margin-bottom: 65px;
+}
+
+.footer-item:nth-child(2) {
+  margin-bottom: 40px;
 }
 
 .footer-telephone {
